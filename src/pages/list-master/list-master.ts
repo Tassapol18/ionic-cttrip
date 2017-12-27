@@ -14,6 +14,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'list-master.html',
 })
 export class ListMasterPage {
+  News: string = "All";
+  isAndroid: boolean = false;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
